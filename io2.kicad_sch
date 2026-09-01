@@ -4345,7 +4345,18 @@
 		)
 		(uuid "fa73eb18-c0bc-4920-be9f-1b5e7c983052")
 	)
-	(hierarchical_label "SCL_MCU"
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 14.732 208.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a5b01d0-4555-47bb-bcb3-1d0d59b2704f")
+	)
+	(hierarchical_label "SCL_G34"
 		(shape input)
 		(at 102.362 106.68 0)
 		(effects
@@ -4356,7 +4367,7 @@
 		)
 		(uuid "0ccc1bff-eb18-4b15-be1b-cf8c8adbc184")
 	)
-	(hierarchical_label "SCL_MCU"
+	(hierarchical_label "SCL_G34"
 		(shape input)
 		(at 222.758 30.48 180)
 		(effects
@@ -4444,7 +4455,7 @@
 		)
 		(uuid "56ff3634-95ed-4499-ac2d-7ec1c89b409f")
 	)
-	(hierarchical_label "SDA_MCU"
+	(hierarchical_label "SDA_G35"
 		(shape input)
 		(at 102.362 109.22 0)
 		(effects
@@ -4488,7 +4499,7 @@
 		)
 		(uuid "959810c4-8d11-41bd-a155-71b41613a62c")
 	)
-	(hierarchical_label "SCL_MCU"
+	(hierarchical_label "SCL_G34"
 		(shape input)
 		(at 95.25 31.496 180)
 		(effects
@@ -4499,7 +4510,7 @@
 		)
 		(uuid "95a32f55-6608-4016-ae61-a6587e51effb")
 	)
-	(hierarchical_label "SDA_MCU"
+	(hierarchical_label "SDA_G35"
 		(shape input)
 		(at 94.742 22.606 180)
 		(effects
@@ -4532,7 +4543,7 @@
 		)
 		(uuid "d88d65c9-5363-4582-ad3d-513ba09a6154")
 	)
-	(hierarchical_label "SDA_MCU"
+	(hierarchical_label "SDA_G35"
 		(shape input)
 		(at 227.838 41.402 0)
 		(effects

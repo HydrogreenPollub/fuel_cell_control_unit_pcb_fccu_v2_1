@@ -4255,16 +4255,6 @@
 		)
 		(uuid "e16ceb73-526c-41a3-9391-d707833dda09")
 	)
-	(label "Antena"
-		(at 111.252 52.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5e3dd17-56d5-403c-a6a2-ea406dfbc9bd")
-	)
 	(label "USB_D+"
 		(at 177.292 152.146 90)
 		(effects
@@ -4571,6 +4561,17 @@
 			(justify right)
 		)
 		(uuid "e15b3cb4-ceb3-4841-8dbe-7eaf1521a031")
+	)
+	(hierarchical_label "Antena"
+		(shape output)
+		(at 111.252 52.578 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efe761e4-895e-4347-823a-28ea4394ce8f")
 	)
 	(hierarchical_label "SDA_G35"
 		(shape input)
